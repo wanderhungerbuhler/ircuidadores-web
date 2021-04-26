@@ -76,6 +76,19 @@ export default class MyDocument extends Document {
           <meta name="twitter:image:alt" content="Thumbnail" />
           <meta name="twitter:image:width" content="1200" />
           <meta name="twitter:image:height" content="620" />
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195481928-1" />
+          <script
+            dangerouslySetItemHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'UA-195481928-1');
+              `
+            }}
+          />
         </Head>
         <body>
           <Main />
