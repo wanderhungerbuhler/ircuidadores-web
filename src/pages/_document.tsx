@@ -79,7 +79,7 @@ export default class MyDocument extends Document {
 
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195481928-1" />
           <script
-            dangerouslySetItemHTML={{
+            dangerouslySetInnerHTML={{
               __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
