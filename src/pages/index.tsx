@@ -87,17 +87,17 @@ function Home() {
         <section>
           <img src="./icon-cuidador.svg" />
 
-          <h2>
-            <FiAlertCircle size={30} />
-            Informativo
-          </h2>
-
-          <p>
-            Em respeito à <b><a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank">LGPD nº 13.709</a></b>(Lei Geral de Proteção de Dados Pessoais), <b>não compartilharemos seus dados</b>.
-            Seu nome será apenas incluído num abaixo-assinado de apoio ao <b>PL 535/2021</b>
-          </p>
-
           <div className="desktop-infos">
+            <h2>
+              <FiAlertCircle size={30} />
+              Informativo
+            </h2>
+
+            <p>
+              Em respeito à <b><a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank">LGPD nº 13.709</a></b>(Lei Geral de Proteção de Dados Pessoais), <b>não compartilharemos seus dados</b>.
+              Seu nome será apenas incluído num abaixo-assinado de apoio ao <b>PL 535/2021</b>
+            </p>
+
             <span>Acompanhe o <b>Deputado Otavio Leite</b> nas redes sociais e mantenha contato.</span>
             <article>
               <ul>
@@ -168,6 +168,19 @@ function Home() {
           ) : (
             <button type="submit">Enviar Opinião</button>
           )}
+
+          <section className="mobile-infos">
+            <h2>
+              <FiAlertCircle size={30} />
+              Informativo
+            </h2>
+
+            <p>
+              Em respeito à <b><a href="http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank">LGPD nº 13.709</a></b>(Lei Geral de Proteção de Dados Pessoais), <b>não compartilharemos seus dados</b>.
+              Seu nome será apenas incluído num abaixo-assinado de apoio ao <b>PL 535/2021</b>
+            </p>
+          </section>
+
           <span>*Autorizo a inclusão do meu nome no abaixo-assinado de apoio ao PL 535/2021</span>
 
           <section>
