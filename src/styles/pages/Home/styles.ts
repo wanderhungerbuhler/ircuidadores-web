@@ -33,6 +33,19 @@ export const Content = styled.div`
   grid-gap: 20px;
   margin-top: 70px;
 
+  @media (max-width: 500px) {
+    .desktop-infos {
+      display: none;
+    }
+  }
+
+  .mobile-infos { display: none; }
+
+  @media (max-width: 500px) {
+    .mobile-infos { display: block; }
+    .mobile-infos h4 { text-align: center; margin-bottom: 15px; }
+  }
+
   section {
     img { max-width: 500px; width: 100%; border-radius: 20px;
       border-bottom-left-radius: 7px solid #407BFF;

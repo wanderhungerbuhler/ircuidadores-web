@@ -97,29 +97,30 @@ function Home() {
             Seu nome será apenas incluído num abaixo-assinado de apoio ao <b>PL 535/2021</b>
           </p>
 
-          <span>Acompanhe o <b>Deputado Otavio Leite</b> nas redes sociais e mantenha contato.</span>
+          <div className="desktop-infos">
+            <span>Acompanhe o <b>Deputado Otavio Leite</b> nas redes sociais e mantenha contato.</span>
+            <article>
+              <ul>
+                <li><a target="_blank" href="https://www.facebook.com/OtavioLeite" className="icons icons-facebook" title="Facbook">Facebook</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/otavioleite/" className="icons icons-instagram" title="Instagram">Instagram</a></li>
+                <li><a target="_blank" href="https://t.me/s/depotavioleite/" className="icons icons-telegram" title="Telegram">Telegram</a></li>
+                <li><a target="_blank" href="https://twitter.com/otavioleite" className="icons icons-twitter" title="Twitter">Twitter</a></li>
+              </ul>
+            </article>
 
-          <article>
-            <ul>
-              <li><a target="_blank" href="https://www.facebook.com/OtavioLeite" className="icons icons-facebook" title="Facbook">Facebook</a></li>
-              <li><a target="_blank" href="https://www.instagram.com/otavioleite/" className="icons icons-instagram" title="Instagram">Instagram</a></li>
-              <li><a target="_blank" href="https://t.me/s/depotavioleite/" className="icons icons-telegram" title="Telegram">Telegram</a></li>
-              <li><a target="_blank" href="https://twitter.com/otavioleite" className="icons icons-twitter" title="Twitter">Twitter</a></li>
-            </ul>
-          </article>
-
-          <div className="container-shared-socials">
-            Compartilhe também no
-            <div className="btns-shared-socials">
-              <a href="https://www.facebook.com/sharer/sharer.php?u=https://ircuidadores.com.br">Facebook</a>
-              <a href="https://api.whatsapp.com/send?text=https://ircuidadores.com.br">WhatsApp</a>
+            <div className="container-shared-socials">
+              Compartilhe também no
+              <div className="btns-shared-socials">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://ircuidadores.com.br">Facebook</a>
+                <a href="https://api.whatsapp.com/send?text=https://ircuidadores.com.br">WhatsApp</a>
+              </div>
             </div>
           </div>
 
 
         </section>
         <Form ref={formRef} onSubmit={handleSubmit}>
-          <strong>Olá! Saúde!<br /></strong>
+          <strong>Olá, <br />Saúde!<br /></strong>
           <p>
             Já está tramitando na Câmara dos Deputados o <a href="https://www.camara.leg.br/proposicoesWeb/prop_mostrarintegra?codteor=1965676" target="_blank"><b>PL 535/2021</b></a>,
             que visa garantir a <b>Dedução do Imposto de Renda </b>
@@ -168,6 +169,28 @@ function Home() {
             <button type="submit">Enviar Opinião</button>
           )}
           <span>*Autorizo a inclusão do meu nome no abaixo-assinado de apoio ao PL 535/2021</span>
+
+          <section>
+            <div className="mobile-infos">
+              <h4>Acompanhe o <b>Deputado Otavio Leite</b> nas redes sociais e mantenha contato.</h4>
+              <article>
+                <ul>
+                  <li><a target="_blank" href="https://www.facebook.com/OtavioLeite" className="icons icons-facebook" title="Facbook">Facebook</a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/otavioleite/" className="icons icons-instagram" title="Instagram">Instagram</a></li>
+                  <li><a target="_blank" href="https://t.me/s/depotavioleite/" className="icons icons-telegram" title="Telegram">Telegram</a></li>
+                  <li><a target="_blank" href="https://twitter.com/otavioleite" className="icons icons-twitter" title="Twitter">Twitter</a></li>
+                </ul>
+              </article>
+
+              <div className="container-shared-socials">
+                Compartilhe também no
+                <div className="btns-shared-socials">
+                  <a href="https://www.facebook.com/sharer/sharer.php?u=https://ircuidadores.com.br">Facebook</a>
+                  <a href="https://api.whatsapp.com/send?text=https://ircuidadores.com.br">WhatsApp</a>
+                </div>
+              </div>
+            </div>
+          </section>
         </Form>
       </Content>
     </Container>
