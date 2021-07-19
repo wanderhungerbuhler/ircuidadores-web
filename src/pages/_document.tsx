@@ -77,6 +77,8 @@ export default class MyDocument extends Document {
           <meta name="twitter:image:width" content="1200" />
           <meta name="twitter:image:height" content="620" />
 
+          <meta name="google-site-verification" content="4h8nn5QOEMPrrZxiZhx-WAySyr6IZmJa-qDLht3kZNs" />
+
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-195481928-1" />
           <script
             dangerouslySetInnerHTML={{
